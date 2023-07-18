@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0 ;}
+#main{
+    background-color: #eee;
+}
+
+#img-div{
+    background-color: white;
+    margin: 1rem
+}
+.image_container{
+    display: grid;
+    place-items: center;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.image{
+    display: grid;
+    place-items: center;
+    width: 90%
+    
+}
+.image_container p{
+    color: gray;
+}
+.biography{
+    display: grid;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.biography h3{
+    font-size: 30px;
+}
+.biography li{
+    display: flex;
+    justify-items: center;
+    text-align: left;
+    width: 44rem;
+    list-style: circle;
+    padding-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#info p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    display: grid;
+    place-items: center;
+    width: 100%;
+
+}
